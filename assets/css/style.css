@@ -82,20 +82,38 @@ main{
     height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-inline: 15%;
+}
+div.grey.imgtext{
+    flex-direction: row-reverse;
 }
  .grey{
     background-color: #e1dddd;
-    flex-direction: row-reverse;
 }
 .imgtext figure{
     background-color: #1e1d32;
     height: 70%;
-    width: 40%;
+    width: 50%;
 }
 .imgtext div{
     background-color: #223fbd;
     height: 70%;
-    width: 30%;
+    width: 40%;
+}
+#mainend{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 15%;
+}
+#mainend div{
+    height: 20%;
+    background-color: #223fbd;
+}
+#mainend figure{
+    height: 40%;
+    background-color: #1e1d32;
 }
