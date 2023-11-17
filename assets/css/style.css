@@ -6,10 +6,10 @@
 }
 header{
     background-color: #5776eb;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20%;
 }
 nav{
     background-color: #223fbd;
@@ -19,12 +19,12 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
-figure{
+nav figure{
     width: 10%;
     height: 80%;
     background-color: white;
 }
-ul{
+nav ul{
     width: 45%;
     height: 80%;
     background-color: white;
@@ -44,7 +44,7 @@ ul{
     align-items: center;
     justify-content: space-evenly;
 }
-h1{
+#undernav h1{
     background-color: white;
     height: 25%;
     width: 60%;
@@ -72,4 +72,30 @@ h1{
     width: 40%;
     height: 70%;
     background-color: #5776eb;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.imgtext{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .grey{
+    background-color: #e1dddd;
+    flex-direction: row-reverse;
+}
+.imgtext figure{
+    background-color: #1e1d32;
+    height: 70%;
+    width: 40%;
+}
+.imgtext div{
+    background-color: #223fbd;
+    height: 70%;
+    width: 30%;
 }
